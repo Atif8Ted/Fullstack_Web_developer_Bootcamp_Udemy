@@ -1,0 +1,33 @@
+        h1 {
+            /*color: yellow;
+            border-color: purple;
+            border-width: 5px;
+            border-style: solid;*/
+            /*Another way */
+
+           /* border: 5px solid black;*/
+           border:2px dashed black;
+        }
+
+        h4 {
+            background: rgb(255, 100, 80);
+        }
+
+        body {
+            background: pink;
+
+            /*Another way*/
+            /*  background: url(http://img03.deviantart.net/ea43/i/2015/239/f/d/rasen_kamehameha____by_jmbfanart-d97ercr.png);
+            background-repeat: no-repeat;
+            background-size: cover;*/
+        }
+
+        li {
+            color: white;
+            background: darkgreen;
+        }
+
+        /* border has three properties*/
+        /*width 
+        color
+        style*/
