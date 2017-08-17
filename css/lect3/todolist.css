@@ -1,18 +1,19 @@
-body {
+	body {
     background: orange;
 }
 
 li {
-    border    : 2px solid red;
+    border: 2px solid red;
 }
 
 h1 {
-    color     : pink;
+    color: pink;
 }
 
-#special{
-	background: green;
+#special {
+    background: green;
 }
-.completed{
-	text-decoration: line-through;
+
+.completed {
+    text-decoration: line-through;
 }
