@@ -1,0 +1,36 @@
+/*cssfontstack.com*/
+/*font-family*/
+p{
+	font-family: "Arial";
+}
+
+h1{
+	font-family: "Arial";
+}
+
+/*font-size*/
+
+/*h1{
+	font-size: 50px;
+}*/
+/*ems*<-- relative*/
+span{
+	font-size: 2.0em;
+}
+
+/*since font size of the each system is different , so "em " will give different value in differnet value .
+so it is advisable to use first some fixed font-size for the entire body 
+using body{
+	
+}*/
+
+body{
+	font-size: 10px;
+}
+h1{
+	font-size: 5.0em;
+}
+
+p{
+	font-size: 2.0em;
+}
