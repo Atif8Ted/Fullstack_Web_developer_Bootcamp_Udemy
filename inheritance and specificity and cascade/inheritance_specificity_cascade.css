@@ -1,0 +1,22 @@
+
+body {
+	background: yellow;
+	color: red ;
+}
+
+ul{
+	color: black;
+
+	}
+
+p{
+	color:green;
+
+}
+.highlight{
+	background: green;
+}
+
+#special {
+	background: red;
+}
