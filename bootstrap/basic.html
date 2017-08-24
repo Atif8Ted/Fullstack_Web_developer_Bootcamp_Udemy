@@ -1,21 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Bootstrap Basics</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 
-	<!-- overwriting the style -->
-	<style type="text/css">
-		.btn-success{
-			background: pink;
-		}
-	</style>
+<head>
+    <title>Bootstrap Basics</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <!-- overwriting the style -->
+    <!-- <style type="text/css"> -->
+    <!-- .btn-success{ -->
+    <!-- background: pink; -->
+    <!-- } -->
+    </style>
 </head>
-<body>
-<h1>Bootstrap Basics</h1>
-<button class="btn btn-danger btn-xs">Click Me</button>
-<button class="btn btn-success btn-xs active">Click Me</button>
-<button class="btn btn-success btn-xs disabled">Click Me</button>
-<a href="http://www.quora.com/atif-imam" class="btn btn-info btn-lg">Atif on Quora</a>
+
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>This is  a jumbotron</h1>
+            <p>Atif imam</p>
+            <button class="btn-success btn-lg">Hi there</button>
+        </div>
+        <h1>Bootstrap Basics</h1>
+        <button class="btn btn-danger btn-xs">Click Me</button>
+        <button class="btn btn-success btn-xs active">Click Me</button>
+        <button class="btn btn-success btn-xs disabled">Click Me</button>
+        <a href="http://www.quora.com/atif-imam" class="btn btn-info btn-lg">Atif on Quora</a>
+
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+    </div>
+
+    <form class="form-inline">
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputPassword3">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Sign in</button>
+</form>
 </body>
+
 </html>
