@@ -38,3 +38,30 @@ function factorial(num){
 }
 
 factorial(3);
+
+//kebabToSnake()
+
+function kebabToSnake(string){
+for(i=0;i<string.length;i++)
+{
+	if(string[i]=="-"){
+		console.log("found");
+		string[i]="_";
+		console.log(string[i]);
+	}
+
+}
+return string;
+}
+kebabToSnake("Hello-world");
+
+
+//
+function kebabToSnake(string){
+string=string.replace(/-/g,"_");
+
+
+return string;
+}
+kebabToSnake("Hello-world");
+"Hello_world"
